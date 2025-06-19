@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGPU Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+    <div id="fps" class="absolute top-0 left-0 m-2 p-2 bg-gray-800 rounded"></div>
+    <div id="mode-switch" class="absolute top-0 right-0 m-2 p-2 bg-gray-800 rounded">
+        <button id="toggle-renderer" class="px-2 py-1 bg-blue-600 rounded">WebGPU</button>
+    </div>
+    <div id="canvas-container" class="w-full h-screen"></div>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
