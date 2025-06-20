@@ -1,0 +1,7 @@
+{
+  "name": "webgpu-online",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test.js"
+  }
+}
